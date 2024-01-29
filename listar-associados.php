@@ -46,6 +46,7 @@
                 }
             }else {
                 print "<td>Pago</td>";
+                print "<td>0</td>";
             }
             print "<td>
                 <button onclick=\"location.href='?page=quitar&id=".$row->id."';\" class='btn btn-success'>Quitar
